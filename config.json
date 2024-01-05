@@ -1,0 +1,10 @@
+{
+  "params": {
+    "local_server": true,
+    "local_uri": "mysql://root:@localhost/flask blog",
+    "prod_uri": "",
+    "no_of_posts": 2,
+    "admin_username": "admin",
+    "admin_password": "adminadmin"
+  }
+}

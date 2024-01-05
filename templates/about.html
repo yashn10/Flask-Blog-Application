@@ -1,0 +1,77 @@
+{% extends 'base.html' %}
+
+{% block title %} About Page {% endblock %}
+
+
+{% block body %}
+
+
+<header class="masthead" style="background-image: url({{url_for('static', filename='assets/img/about-bg.jpg')}})">
+    <div class="container position-relative px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <div class="page-heading">
+                    <h1>About BloggerWrites</h1>
+                    <span class="subheading">This is what I do.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<main class="mb-4">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-md-10 col-lg-8 col-xl-7">
+                <header class="mb-5 text-center">
+                    <h2>Welcome to BloggerWrites</h2>
+                    <hr>
+                </header>
+
+                <section>
+                    <h3>What Sets Us Apart</h3>
+                    <p>Highlight the unique aspects of BloggerWrites. This could include your approach to content,
+                        the variety of topics covered, the expertise of your contributors, or any special features that
+                        make your site stand out.</p>
+                </section>
+
+                <section>
+                    <h3>Discover a World of Insights</h3>
+                    <p>Describe the diversity and depth of content available on BloggerWrites. Whether you're a
+                        [mention one type of reader] seeking [mention what they might find], or a [mention another type
+                        of reader] interested in [mention what they might find], we've got you covered.</p>
+                </section>
+
+                <section>
+                    <h3>Our Mission</h3>
+                    <p>Our mission is to provide valuable information, inspiring change, fostering a community, or any
+                        other overarching goal you have
+                        through this platform.
+                    </p>
+                </section>
+
+                <section>
+                    <h3>Who We Are</h3>
+                    <p>Offer a glimpse behind the scenes. Introduce the people behind the content – writers, editors,
+                        contributors – and briefly share their passion and expertise that contributes to the richness of
+                        BloggerWrites.</p>
+                </section>
+
+                <section>
+                    <h3>Engage with BloggerWrites</h3>
+                    <p>We encourage readers to connect with BloggerWrites through social media, newsletters, or any
+                        other platforms you use. Mention how they can stay updated on the latest content and join
+                        discussions.</p>
+                </section>
+
+                <footer>
+                    <p>Thank you for being part of the BloggerWrites community. Explore, engage, and enjoy the
+                        journey through our blog. We're thrilled to have you with us!</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</main>
+
+
+{% endblock body %}
